@@ -1,0 +1,78 @@
+{
+  "workId": "kabuliwala",
+  "title": "Kabuliwala",
+  "director": "claude-opus-5-5 (authored in Claude Code, same rules as scripts/audio/direct.ts)",
+  "cast": [
+    { "id": "narrator", "name": "Narrator", "description": "Warm adult storyteller, unhurried, gently amused, capable of deep tenderness" },
+    { "id": "mini", "name": "Mini", "description": "Five-year-old girl in Calcutta, a fearless, giggling chatterbox" },
+    { "id": "rahamat", "name": "Rahamat", "description": "Tall middle-aged Afghan fruit seller, deep voice, playful with children, later weary and heartbroken" },
+    { "id": "father", "name": "Mini's father", "description": "Writer in his forties, Mini's father, kind but distracted and busy" }
+  ],
+  "chapters": [
+    {
+      "title": "Introduction",
+      "lines": [
+        { "speaker": "narrator", "text": "[warmly] Welcome to LitBridge, where stories cross languages. Today's story comes from Bengal. It was written in 1892 by Rabindranath Tagore... and it is called Kabuliwala." }
+      ]
+    },
+    {
+      "title": "The fruit seller",
+      "lines": [
+        { "speaker": "narrator", "text": "[amused] The narrator is a writer in Calcutta, whose five-year-old daughter Mini cannot keep quiet for a minute." },
+        { "speaker": "narrator", "text": "One day she spots a tall Afghan in loose clothes and a turban, with a bag of raisins and almonds over his shoulder... and she calls out to him." },
+        { "speaker": "mini", "text": "[excited] Kabuliwala! Kabuliwala!" },
+        { "speaker": "narrator", "text": "[chuckles] Then, terrified, she runs to hide." }
+      ]
+    },
+    {
+      "title": "An unlikely friendship",
+      "lines": [
+        { "speaker": "narrator", "text": "The Kabuliwala, Rahamat, keeps coming back. Before long the narrator finds the giant and the little girl sitting together, laughing at jokes only they understand." },
+        { "speaker": "narrator", "text": "He asks her what is in his bag." },
+        { "speaker": "mini", "text": "[giggles] An elephant!" },
+        { "speaker": "narrator", "text": "He teases her about going to her father-in-law's house. And she, without missing a beat, asks him..." },
+        { "speaker": "mini", "text": "[teasing] Are YOU going to your father-in-law's house?" },
+        { "speaker": "rahamat", "text": "[mock anger] Ha! I would beat him! [laughs heartily]" },
+        { "speaker": "narrator", "text": "He shakes his fist at an imaginary father-in-law, and they both collapse in giggles." },
+        { "speaker": "narrator", "text": "[thoughtful] Mini's mother distrusts the stranger. But the narrator, who longs to travel and never does, enjoys his stories of the mountains." }
+      ]
+    },
+    {
+      "title": "The arrest",
+      "lines": [
+        { "speaker": "narrator", "text": "[serious] One winter morning, Rahamat is led away by the police... his clothes stained with blood." },
+        { "speaker": "narrator", "text": "A man owed him money and denied it, and in the quarrel, Rahamat stabbed him." },
+        { "speaker": "narrator", "text": "As he passes, Mini calls out the old joke." },
+        { "speaker": "mini", "text": "[innocently] Are you going to your father-in-law's house?" },
+        { "speaker": "rahamat", "text": "[bitter smile] Yes, little one. [short pause] That is exactly where I am going." },
+        { "speaker": "narrator", "text": "[softly] He is sentenced to years in prison." }
+      ]
+    },
+    {
+      "title": "The wedding morning",
+      "lines": [
+        { "speaker": "narrator", "text": "[wistful] Time passes. Mini grows up... and forgets him." },
+        { "speaker": "narrator", "text": "On the morning of her wedding, as the musicians tune their instruments, Rahamat appears at the door. He has just been released. He has brought raisins for Mini, and he wants to see her." },
+        { "speaker": "father", "text": "[impatient] Not today, Rahamat. There is a wedding in the house. You will have to go." },
+        { "speaker": "narrator", "text": "[slowly] Rahamat turns back at the door... and unfolds a scrap of paper." },
+        { "speaker": "narrator", "text": "[tender] On it is the print of a tiny hand, pressed in soot. It belongs to his own daughter in Kabul, whom he left when she was Mini's age. He has carried it next to his heart all these years." }
+      ]
+    },
+    {
+      "title": "Two daughters",
+      "lines": [
+        { "speaker": "narrator", "text": "[moved] The narrator calls Mini, now in her bridal silk and sandal paste." },
+        { "speaker": "rahamat", "text": "[startled, softly] Little one... are you going to your father-in-law's house?" },
+        { "speaker": "narrator", "text": "[heartbroken] She is no longer the little girl he knew. And Rahamat realises that his own daughter must have grown up too." },
+        { "speaker": "narrator", "text": "[warmly] The narrator gives him money from the wedding budget, so that he can go home to her." },
+        { "speaker": "narrator", "text": "[long pause] Fewer lights are lit at the wedding that night... but the narrator thinks it is the brighter for it." }
+      ]
+    },
+    {
+      "title": "Afterword",
+      "lines": [
+        { "speaker": "narrator", "text": "[gently] Kabuliwala is a story about how love for a child crosses every border, of country, class, and language. Thank you for listening to LitBridge." }
+      ]
+    }
+  ]
+}

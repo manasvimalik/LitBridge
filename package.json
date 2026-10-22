@@ -9,10 +9,13 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "typecheck": "tsc -b"
+    "typecheck": "tsc -b && tsc -p tsconfig.api.json && tsc -p tsconfig.scripts.json",
+    "audio:direct": "tsx --env-file=.env.local scripts/audio/direct.ts",
+    "audio:render": "tsx --env-file=.env.local scripts/audio/render.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.1.0",
+    "@elevenlabs/elevenlabs-js": "^2.74.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",
@@ -26,6 +29,7 @@
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14",
+    "tsx": "^4.19.2",
     "typescript": "^5.6.3",
     "vite": "^5.4.10",
     "vitest": "^2.1.4"

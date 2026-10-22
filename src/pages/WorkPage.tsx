@@ -1,7 +1,10 @@
 import { useMemo } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { HeartIcon } from '../components/Icons';
+import { AudioPlayer } from '../components/AudioPlayer';
 import { Player } from '../components/Player';
+import audioIndex from '../data/audioIndex.json';
+import type { AudioIndex } from '../lib/audio';
 import { WorkCard } from '../components/WorkCard';
 import { CONTRIBUTOR_BY_ID } from '../data/contributors';
 import { LANGUAGE_BY_CODE } from '../data/languages';
@@ -36,6 +39,8 @@ export default function WorkPage() {
   const lang = LANGUAGE_BY_CODE[work.language];
   const author = CONTRIBUTOR_BY_ID[work.authorId];
   const fav = favs.includes(work.id);
+  const narrated = (audioIndex as AudioIndex)[work.id];
+  const recordPlay = () => setHistory((h) => [work.id, ...h.filter((x) => x !== work.id)].slice(0, 20));
 
   return (
     <article className="container-page py-10">
@@ -82,10 +87,11 @@ export default function WorkPage() {
         </div>
 
         <aside className="space-y-6 lg:sticky lg:top-20 lg:self-start">
-          <Player
-            source={source}
-            onPlay={() => setHistory((h) => [work.id, ...h.filter((x) => x !== work.id)].slice(0, 20))}
-          />
+          {narrated ? (
+            <AudioPlayer key={work.id} narrators={narrated} onPlay={recordPlay} />
+          ) : (
+            <Player source={source} onPlay={recordPlay} />
+          )}
           {author && (
             <div className="card p-5">
               <p className="text-xs font-semibold uppercase tracking-widest muted">About the author</p>
