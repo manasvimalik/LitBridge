@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { -webkit-text-size-adjust: 100%; }
+  body { @apply bg-paper-50 text-ink-800 font-sans antialiased dark:bg-ink-900 dark:text-paper-100; }
+  h1, h2, h3 { @apply font-serif; }
+  :focus-visible { @apply outline-none ring-2 ring-gold-400 ring-offset-2 ring-offset-paper-50 dark:ring-offset-ink-900; }
+  ::selection { @apply bg-gold-300 text-ink-900; }
+}
+
+@layer components {
+  .container-page { @apply mx-auto w-full max-w-6xl px-4 sm:px-6; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold transition disabled:cursor-not-allowed disabled:opacity-50; }
+  .btn-primary { @apply btn bg-maroon-600 text-paper-50 hover:bg-maroon-700; }
+  .btn-gold { @apply btn bg-gold-400 text-ink-900 hover:bg-gold-500; }
+  .btn-ghost { @apply btn border border-paper-200 bg-white/70 text-ink-800 hover:bg-white dark:border-ink-700 dark:bg-ink-800 dark:text-paper-100 dark:hover:bg-ink-700; }
+  .card { @apply rounded-2xl border border-paper-200 bg-white shadow-sm dark:border-ink-700 dark:bg-ink-800; }
+  .chip { @apply inline-flex items-center rounded-full bg-paper-100 px-2.5 py-0.5 text-xs font-medium text-maroon-700 dark:bg-ink-700 dark:text-gold-300; }
+  .input { @apply w-full rounded-lg border border-paper-200 bg-white px-3 py-2 text-sm placeholder:text-ink-700/50 focus:border-gold-400 focus:outline-none focus:ring-2 focus:ring-gold-300/50 dark:border-ink-700 dark:bg-ink-800 dark:placeholder:text-paper-200/40; }
+  .label { @apply mb-1 block text-sm font-medium; }
+  .muted { @apply text-ink-700/70 dark:text-paper-200/60; }
+  .prose-story p { @apply mb-4 leading-8 text-[1.05rem]; }
+}
+
+.indic { font-family: 'Noto Sans Devanagari', 'Noto Sans Bengali', 'Noto Sans Tamil', 'Noto Sans', system-ui, sans-serif; }
