@@ -16,6 +16,7 @@ export function useNarrator(episode: Episode) {
   const [rate, setRate] = useState(1);
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [voiceURI, setVoiceURI] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(null);
   const generation = useRef(0);
   const state = useRef({ cue, rate, voiceURI, playing });
   state.current = { cue, rate, voiceURI, playing };
@@ -36,6 +37,8 @@ export function useNarrator(episode: Episode) {
     (index: number) => {
       if (!supported) return;
       const gen = ++generation.current;
+      let failures = 0;
+      setError(null);
       speechSynthesis.cancel();
       const next = (i: number) => {
         if (gen !== generation.current) return;
@@ -50,9 +53,19 @@ export function useNarrator(episode: Episode) {
         u.lang = 'en-IN';
         const voice = speechSynthesis.getVoices().find((v) => v.voiceURI === state.current.voiceURI);
         if (voice) u.voice = voice;
-        u.onend = () => next(i + 1);
+        u.onend = () => {
+          failures = 0;
+          next(i + 1);
+        };
         u.onerror = (e) => {
-          if (e.error !== 'interrupted' && e.error !== 'canceled') next(i + 1);
+          if (e.error === 'interrupted' || e.error === 'canceled') return;
+          // Skip a sentence the engine cannot voice, but stop if it keeps failing.
+          if (++failures >= 3) {
+            setError(`Speech engine error: ${e.error}`);
+            setPlaying(false);
+            return;
+          }
+          next(i + 1);
         };
         speechSynthesis.speak(u);
       };
@@ -93,7 +106,7 @@ export function useNarrator(episode: Episode) {
     };
   }, [episode, supported]);
 
-  return { supported, playing, cue, rate, setRate, voices, voiceURI, setVoiceURI, toggle, pause, seek, speakFrom };
+  return { supported, error, playing, cue, rate, setRate, voices, voiceURI, setVoiceURI, toggle, pause, seek, speakFrom };
 }
 
 /** WebVTT captions for an episode, so the narration can be paired with recorded audio later. */

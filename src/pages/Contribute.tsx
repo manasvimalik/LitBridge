@@ -93,7 +93,7 @@ export default function Contribute() {
       translator: draft.translator.trim(),
       text: draft.text.trim(),
       translation: english || undefined,
-      summary: summarize(english || draft.text, { maxSentences: 3 }).summary,
+      summary: summarize(english || draft.text, { ratio: 0.5, maxSentences: 3 }).summary,
       themes: draft.themes.split(',').map((t) => t.trim().toLowerCase()).filter(Boolean).slice(0, 6),
       createdAt: Date.now(),
       votes: 0,
@@ -117,6 +117,10 @@ export default function Contribute() {
       }),
     );
   };
+
+  const curatorApprove = (id: string) =>
+    setSubs((prev) => prev.map((s) => (s.id === id ? { ...s, status: 'approved', votes: Math.max(s.votes, APPROVAL_THRESHOLD) } : s)));
+  const remove = (id: string) => setSubs((prev) => prev.filter((s) => s.id !== id));
 
   // Rank the queue by a "hot" score: votes decayed by age, like a news aggregator.
   const queue = [...subs].sort((a, b) => hot(b) - hot(a));
@@ -205,6 +209,12 @@ export default function Contribute() {
                       <div className="h-1.5 flex-1 rounded-full bg-paper-100 dark:bg-ink-700">
                         <div className="h-1.5 rounded-full bg-gold-400" style={{ width: `${Math.min(100, (s.votes / APPROVAL_THRESHOLD) * 100)}%` }} />
                       </div>
+                    </div>
+                    <div className="mt-2 flex gap-3 text-xs">
+                      {s.status !== 'approved' && (
+                        <button onClick={() => curatorApprove(s.id)} className="text-maroon-600 hover:underline dark:text-gold-300">Approve as curator</button>
+                      )}
+                      <button onClick={() => remove(s.id)} className="muted hover:text-red-600">Withdraw</button>
                     </div>
                   </div>
                 </div>

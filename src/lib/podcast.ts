@@ -119,8 +119,13 @@ export function formatTime(seconds: number): string {
  * Rank speech-synthesis voices: Indian English first (it suits the material),
  * then other English voices, preferring higher-quality "natural"/"neural" ones.
  */
+/** macOS ships novelty voices (sound effects, robots, singing) that would ruin a story. */
+const NOVELTY_VOICES =
+  /^(Albert|Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Good News|Jester|Organ|Superstar|Trinoids|Whisper|Wobble|Zarvox|Grandma|Grandpa|Junior|Ralph|Fred|Kathy|Eddy|Flo|Reed|Rocko|Sandy|Shelley)\b/;
+
 export function rankVoices(voices: Pick<SpeechSynthesisVoice, 'name' | 'lang' | 'localService'>[]) {
   const score = (v: (typeof voices)[number]) =>
+    NOVELTY_VOICES.test(v.name) ? 0 :
     (v.lang === 'en-IN' ? 100 : v.lang.startsWith('en') ? 50 : 0) +
     (/natural|neural|premium|enhanced/i.test(v.name) ? 20 : 0) +
     (/google/i.test(v.name) ? 5 : 0);

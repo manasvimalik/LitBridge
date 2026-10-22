@@ -102,6 +102,9 @@ export function summarize(text: string, opts: { ratio?: number; maxSentences?: n
   return { sentences, summary: sentences.map((s) => s.text).join(' '), ranking, iterations };
 }
 
+/** Narrative filler that scores well on TF-IDF but makes a poor theme. */
+const FILLER = new Set(['lived', 'live', 'once', 'upon', 'every', 'went', 'came', 'said', 'told', 'took', 'made', 'there', 'after', 'before', 'about', 'little']);
+
 /** Top keywords by aggregate TF-IDF weight — used to suggest themes for submissions. */
 export function keywords(text: string, k = 6): string[] {
   const sentences = splitSentences(text);
@@ -109,7 +112,7 @@ export function keywords(text: string, k = 6): string[] {
   const totals = new Map<string, number>();
   for (const v of tfidfVectors(sentences)) for (const [t, w] of v) totals.set(t, (totals.get(t) ?? 0) + w);
   return [...totals.entries()]
-    .filter(([t]) => t.length > 3 && !/^\d+$/.test(t))
+    .filter(([t]) => t.length > 3 && !FILLER.has(t) && !/^\d+$/.test(t))
     .sort((a, b) => b[1] - a[1])
     .slice(0, k)
     .map(([t]) => t);

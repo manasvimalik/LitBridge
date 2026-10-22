@@ -107,6 +107,7 @@ export function Player({ source, onPlay }: { source: EpisodeSource; onPlay?: () 
             )}
           </div>
         </div>
+        {n.error && <p className="mt-3 text-sm text-gold-300">{n.error}. Try another voice from the menu.</p>}
         {!n.supported && <p className="mt-3 text-sm text-gold-300">Your browser does not support speech synthesis. You can still read the transcript below.</p>}
       </div>
 

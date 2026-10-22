@@ -149,6 +149,7 @@ describe('podcast', () => {
       { name: 'Samantha', lang: 'en-US', localService: true },
       { name: 'Rishi', lang: 'en-IN', localService: true },
       { name: 'Thomas', lang: 'fr-FR', localService: true },
+      { name: 'Bubbles', lang: 'en-US', localService: true },
     ]);
     expect(v.map((x) => x.name)).toEqual(['Rishi', 'Samantha']);
   });
