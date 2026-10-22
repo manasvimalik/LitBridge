@@ -9,3 +9,4 @@ dist-single
 .vercel
 coverage
 .claude
+*.tsbuildinfo
