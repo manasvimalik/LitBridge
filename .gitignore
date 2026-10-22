@@ -8,3 +8,4 @@ dist-single
 .DS_Store
 .vercel
 coverage
+.claude
