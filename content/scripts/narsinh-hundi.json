@@ -1,0 +1,106 @@
+{
+  "workId": "narsinh-hundi",
+  "title": "The Promissory Note of Narsinh Mehta",
+  "director": "claude-opus-5-5 (authored in Claude Code, same rules as scripts/audio/direct.ts)",
+  "cast": [
+    {
+      "id": "narrator",
+      "name": "Narrator",
+      "description": "Devotional, warm storyteller"
+    },
+    {
+      "id": "narsinh",
+      "name": "Narsinh Mehta",
+      "description": "Elderly poet-saint, serene, joyful, utterly trusting"
+    },
+    {
+      "id": "merchant",
+      "name": "Junagadh merchant",
+      "description": "Smirking, jealous town merchant"
+    },
+    {
+      "id": "shamalsha",
+      "name": "Shamalsha Sheth",
+      "description": "Mysterious, gracious merchant (Krishna in disguise), rich warm voice"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Introduction",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[warmly] Welcome to LitBridge, where stories cross languages. Today's story comes from the Gujarati tradition. It is a fifteenth-century legend about the poet-saint Narsinh Mehta of Junagadh. It is called... The Promissory Note of Narsinh Mehta."
+        }
+      ]
+    },
+    {
+      "title": "A joke on the poet",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Narsinh Mehta of Junagadh was a poet who sang to Krishna day and night, and owned almost nothing. The town's merchants mocked him."
+        },
+        {
+          "speaker": "narrator",
+          "text": "One day, pilgrims bound for Dwarka arrived with seven hundred rupees. The roads were full of robbers, so they wanted a hundi, a note they could cash at the other end."
+        },
+        {
+          "speaker": "merchant",
+          "text": "[smirking] A banker? Go to Narsinh Mehta. He's the richest man in town. [snickers]"
+        }
+      ]
+    },
+    {
+      "title": "The hundi",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The pilgrims came to his hut and asked for a hundi. Narsinh could have told them the truth. Instead, he took the money, and in a clear hand, wrote a note payable in Dwarka by a merchant named Shamalsha Sheth."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[warmly] That was a name for Krishna, the dark one. Then he spent the money feeding the poor and the saints who came to his door... and sat down to sing."
+        },
+        {
+          "speaker": "narsinh",
+          "text": "[serenely, humming] Shamalsha will pay. He always does."
+        }
+      ]
+    },
+    {
+      "title": "In Dwarka",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The pilgrims reached Dwarka and searched every market for Shamalsha Sheth. Nobody had heard of him. Tired and afraid, they sat outside the temple, sure they had been cheated."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[wonder] That evening, a merchant in a fine turban came walking through the crowd."
+        },
+        {
+          "speaker": "shamalsha",
+          "text": "[warm, resonant] Who has a hundi from Narsinh Mehta? I am Shamalsha."
+        },
+        {
+          "speaker": "narrator",
+          "text": "He counted out seven hundred rupees in gleaming coins, paid them with interest, and took the note. When the pilgrims looked up to thank him... he was gone."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[amused] When the pilgrims came home and told the story, the merchants of Junagadh had nothing to say. Narsinh only sang a little louder."
+        }
+      ]
+    },
+    {
+      "title": "Afterword",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[gently] Narsinh's hymn Vaishnava jana to, about feeling others' pain as your own, later became Gandhi's favourite song. Thank you for listening to LitBridge."
+        }
+      ]
+    }
+  ]
+}

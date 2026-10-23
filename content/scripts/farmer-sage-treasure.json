@@ -1,0 +1,117 @@
+{
+  "workId": "farmer-sage-treasure",
+  "title": "The Farmer, the Sage and the Hidden Treasure",
+  "director": "claude-opus-5-5 (authored in Claude Code, same rules as scripts/audio/direct.ts)",
+  "cast": [
+    {
+      "id": "narrator",
+      "name": "Narrator",
+      "description": "Warm village storyteller"
+    },
+    {
+      "id": "ramdin",
+      "name": "Ramdin",
+      "description": "Lazy, grumbling farmer, middle-aged man"
+    },
+    {
+      "id": "sage",
+      "name": "The sage",
+      "description": "Old wandering sage, calm, knowing"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Introduction",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[warmly] Welcome to LitBridge, where stories cross languages. Today's story comes from the Hindi tradition. It is a village tale, passed from grandparent to grandchild along the Ganga. It is called... The Farmer, the Sage and the Hidden Treasure."
+        }
+      ]
+    },
+    {
+      "title": "A lazy farmer",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[amused] In a village on the banks of the Ganga lived a farmer named Ramdin, who loved his charpai more than his plough."
+        },
+        {
+          "speaker": "narrator",
+          "text": "His fields grew weeds taller than his children... and every year, the family ate a little less."
+        },
+        {
+          "speaker": "narrator",
+          "text": "One afternoon, a sage stopped under the neem tree by his house and asked for water. Ramdin brought it, and complained, as he always did."
+        },
+        {
+          "speaker": "ramdin",
+          "text": "[grumbling] Bad luck, Maharaj. Bad luck and stingy rain. What can a poor man do?"
+        },
+        {
+          "speaker": "narrator",
+          "text": "The sage listened. Then he lowered his voice."
+        },
+        {
+          "speaker": "sage",
+          "text": "[conspiratorial whisper] Your grandfather was a wise man. He buried his wealth in these very fields. Dig... and you will find it."
+        }
+      ]
+    },
+    {
+      "title": "The digging",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[brightly] The next morning, Ramdin was in the field before the crows."
+        },
+        {
+          "speaker": "narrator",
+          "text": "He dug the eastern corner, then the western one. His wife brought him rotis and buttermilk, and stayed to help. His sons, curious, joined in."
+        },
+        {
+          "speaker": "narrator",
+          "text": "For weeks they turned over every clod of earth, broke every stone, and pulled out every root."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[sighs] They found no pot of gold. Only blisters."
+        }
+      ]
+    },
+    {
+      "title": "The harvest",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Then the monsoon came. Ramdin, tired and embarrassed, scattered the seed he had left over the freshly dug soil, because it seemed a waste not to."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[warmly] The loosened earth drank the rain. By autumn, his wheat stood golden and heavy, higher than any in the village."
+        },
+        {
+          "speaker": "narrator",
+          "text": "When the sage passed that way again, Ramdin fell at his feet."
+        },
+        {
+          "speaker": "ramdin",
+          "text": "[moved] There was no treasure, Maharaj... and yet I have never been so rich."
+        },
+        {
+          "speaker": "sage",
+          "text": "[gently amused] There was treasure. You simply had to dig to find it. [short pause] Do it again next year."
+        }
+      ]
+    },
+    {
+      "title": "Afterword",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[warmly] The treasure was the work itself, and the earth rewards those who turn it. Thank you for listening to LitBridge."
+        }
+      ]
+    }
+  ]
+}

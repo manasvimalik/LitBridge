@@ -1,0 +1,117 @@
+{
+  "workId": "punyakoti",
+  "title": "Punyakoti, the Truthful Cow",
+  "director": "claude-opus-5-5 (authored in Claude Code, same rules as scripts/audio/direct.ts)",
+  "cast": [
+    {
+      "id": "narrator",
+      "name": "Narrator",
+      "description": "Tender, solemn storyteller"
+    },
+    {
+      "id": "punyakoti",
+      "name": "Punyakoti",
+      "description": "Gentle mother cow, calm, dignified, loving"
+    },
+    {
+      "id": "tiger",
+      "name": "Arbhuta the tiger",
+      "description": "Old hungry tiger, menacing, later ashamed"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Introduction",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[warmly] Welcome to LitBridge, where stories cross languages. Today's story comes from the Kannada tradition. It comes from Govina Haadu, the song of the cow, still sung to children in Karnataka. It is called... Punyakoti."
+        }
+      ]
+    },
+    {
+      "title": "The tiger",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "In a village at the foot of the Karnataka hills lived a cowherd named Kalinga. In his herd was a cow called Punyakoti."
+        },
+        {
+          "speaker": "narrator",
+          "text": "In the forest above lived a tiger named Arbhuta. He was old and hungry. One evening, he leapt out in front of Punyakoti as she grazed apart from the others."
+        },
+        {
+          "speaker": "tiger",
+          "text": "[growling] Your grazing is over, cow."
+        },
+        {
+          "speaker": "punyakoti",
+          "text": "[calm] Wait. I have a calf at home who has not been fed. Let me go and give her milk one last time, and say goodbye. Then I will come back... and you can eat me."
+        },
+        {
+          "speaker": "tiger",
+          "text": "[mocking laugh] Ha! What prey ever came back?"
+        },
+        {
+          "speaker": "narrator",
+          "text": "But something in her eyes made him curious. And he let her go."
+        }
+      ]
+    },
+    {
+      "title": "A mother's goodbye",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[tender] At home, Punyakoti fed her calf, and gave her all the advice a mother can give in one evening."
+        },
+        {
+          "speaker": "punyakoti",
+          "text": "[softly] Stay near the herd, my little one. Be kind to the other mothers. And never wander near the forest alone."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The other cows begged her not to go back."
+        },
+        {
+          "speaker": "punyakoti",
+          "text": "[firm, gentle] A promise is a promise. If I break it, what is the use of the life I save?"
+        }
+      ]
+    },
+    {
+      "title": "The promise kept",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "At dawn, she walked back up the hill and stood before the tiger."
+        },
+        {
+          "speaker": "punyakoti",
+          "text": "[calm] I have come. Eat me."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[long pause] Arbhuta looked at her for a long time. He had killed many creatures, but he had never met one who walked back to her death to keep her word."
+        },
+        {
+          "speaker": "tiger",
+          "text": "[ashamed, low] You are my sister... and I am a sinner. How could I eat a creature like you?"
+        },
+        {
+          "speaker": "narrator",
+          "text": "[solemn] Overcome by shame, he leapt from the cliff. And Punyakoti went home to her calf."
+        }
+      ]
+    },
+    {
+      "title": "Afterword",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[gently] The song of Punyakoti is still a child's first lesson in Karnataka about keeping one's word. Thank you for listening to LitBridge."
+        }
+      ]
+    }
+  ]
+}

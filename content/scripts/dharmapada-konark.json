@@ -1,0 +1,110 @@
+{
+  "workId": "dharmapada-konark",
+  "title": "Dharmapada and the Crown of Konark",
+  "director": "claude-opus-5-5 (authored in Claude Code, same rules as scripts/audio/direct.ts)",
+  "cast": [
+    {
+      "id": "narrator",
+      "name": "Narrator",
+      "description": "Solemn, epic storyteller"
+    },
+    {
+      "id": "dharmapada",
+      "name": "Dharmapada",
+      "description": "Twelve-year-old boy, bright, brave, quietly determined"
+    },
+    {
+      "id": "king",
+      "name": "King Narasimhadeva",
+      "description": "Stern, impatient king, commanding"
+    },
+    {
+      "id": "artisan",
+      "name": "An artisan",
+      "description": "Frightened master craftsman, adult man"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Introduction",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[warmly] Welcome to LitBridge, where stories cross languages. Today's story comes from the Odia tradition. It is the legend told about the building of the Sun Temple at Konark in the thirteenth century. It is called... Dharmapada and the Crown of Konark."
+        }
+      ]
+    },
+    {
+      "title": "Twelve years",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "King Narasimhadeva of the Ganga dynasty wanted a temple to the sun god at Konark, on the shore of the Bay of Bengal. It was to be shaped like a great chariot, with twenty-four carved wheels, drawn by seven stone horses."
+        },
+        {
+          "speaker": "narrator",
+          "text": "He summoned twelve hundred artisans under the master architect Bisu Maharana, and gave them twelve years. [wistful] Bisu left his village when his wife was expecting their first child. For twelve years, he never went home."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The temple rose, wheel by wheel... until only the crowning stone remained. And every time they tried, it would not settle."
+        },
+        {
+          "speaker": "king",
+          "text": "[stern] If my temple is not complete by dawn on the appointed day, all twelve hundred of you will be put to death."
+        }
+      ]
+    },
+    {
+      "title": "The boy",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "That very week, a boy of twelve arrived at the camp, asking for his father. It was Dharmapada, Bisu's son, whom the architect had never seen."
+        },
+        {
+          "speaker": "dharmapada",
+          "text": "[eager, shy] I am looking for Bisu Maharana. I am... his son."
+        },
+        {
+          "speaker": "narrator",
+          "text": "He had grown up learning the craft from palm-leaf manuscripts and his father's old tools. He climbed the scaffolding, studied the tower, and saw the error in the design."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[quietly intense] Working through the night, he set the crowning stone in its place."
+        }
+      ]
+    },
+    {
+      "title": "The leap",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[awed] At dawn, the temple stood complete. But the artisans were afraid."
+        },
+        {
+          "speaker": "artisan",
+          "text": "[fearful whisper] If the king learns a mere boy did what twelve hundred masters could not... we are disgraced. He may still have us killed."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[slowly] Dharmapada understood what his success had cost them. He climbed to the top of the finished temple..."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[long pause] [heartbroken] and leapt into the sea."
+        }
+      ]
+    },
+    {
+      "title": "Afterword",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[softly] The temple of Konark still stands, its stone wheels used as sundials to this day. Odia people say the sea spray that reaches it carries the memory of the boy who completed it and asked for nothing. Thank you for listening to LitBridge."
+        }
+      ]
+    }
+  ]
+}

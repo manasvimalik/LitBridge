@@ -1,0 +1,105 @@
+{
+  "workId": "avvaiyar-jamun",
+  "title": "Avvaiyar and the Jamun Tree",
+  "director": "claude-opus-5-5 (authored in Claude Code, same rules as scripts/audio/direct.ts)",
+  "cast": [
+    {
+      "id": "narrator",
+      "name": "Narrator",
+      "description": "Warm, reverent storyteller"
+    },
+    {
+      "id": "avvaiyar",
+      "name": "Avvaiyar",
+      "description": "Elderly, celebrated woman poet, dignified, a little proud, then humbled"
+    },
+    {
+      "id": "boy",
+      "name": "The cowherd boy",
+      "description": "Young boy, playful, mischievous, secretly divine"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Introduction",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[warmly] Welcome to LitBridge, where stories cross languages. Today's story comes from the Tamil tradition. It is a legend about Avvaiyar, the most celebrated poet of the Tamil land. It is called... Avvaiyar and the Jamun Tree."
+        }
+      ]
+    },
+    {
+      "title": "Under the tree",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Avvaiyar was the most celebrated poet of the Tamil land. Kings sought her advice, and scholars bowed when she entered a court. She had begun to believe there was nothing left that anyone could teach her."
+        },
+        {
+          "speaker": "narrator",
+          "text": "One hot afternoon, walking a long road, she sat down to rest under a jamun tree. High in the branches, a cowherd boy sat swinging his legs."
+        },
+        {
+          "speaker": "boy",
+          "text": "[playful] Paati! Grandmother, you look tired. Would you like some fruit?"
+        },
+        {
+          "speaker": "avvaiyar",
+          "text": "[weary] Yes, child. I would."
+        },
+        {
+          "speaker": "boy",
+          "text": "[mischievous] Do you want hot fruit... or cold fruit?"
+        }
+      ]
+    },
+    {
+      "title": "Hot fruit",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Avvaiyar frowned. Fruit was fruit. Was the boy mocking her? But she was curious."
+        },
+        {
+          "speaker": "avvaiyar",
+          "text": "[amused, testing] Give me hot fruit, then."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The boy shook a branch, and ripe purple jamuns fell into the sand. Avvaiyar picked one up and, as anyone would, blew on it to clear away the dust."
+        },
+        {
+          "speaker": "boy",
+          "text": "[laughs] Is it very hot, Paati? You have to blow on it to cool it down!"
+        }
+      ]
+    },
+    {
+      "title": "The god in the branches",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[softly] The poet sat very still. She who had answered the riddles of kings had been out-witted by a child with a mouthful of fruit."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[awed] She looked up to praise him... and saw that he was no cowherd. The god Murugan sat in the branches, smiling, a peacock at his side."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Avvaiyar folded her hands. She understood that learning has no end, and that wisdom can come from the youngest voice in the shade."
+        }
+      ]
+    },
+    {
+      "title": "Afterword",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[gently] It is a story about humility. The wisest are those who remember they can still be taught. Thank you for listening to LitBridge."
+        }
+      ]
+    }
+  ]
+}

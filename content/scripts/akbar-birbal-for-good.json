@@ -1,0 +1,130 @@
+{
+  "workId": "akbar-birbal-for-good",
+  "title": "Akbar and Birbal: Whatever Happens, Happens for Good",
+  "director": "claude-opus-5-5 (authored in Claude Code, same rules as scripts/audio/direct.ts)",
+  "cast": [
+    {
+      "id": "narrator",
+      "name": "Narrator",
+      "description": "Warm, wry adult storyteller"
+    },
+    {
+      "id": "akbar",
+      "name": "Emperor Akbar",
+      "description": "Middle-aged Mughal emperor, booming, proud, quick-tempered but fair"
+    },
+    {
+      "id": "birbal",
+      "name": "Birbal",
+      "description": "Older minister, calm, sly, unflappable wit"
+    },
+    {
+      "id": "priest",
+      "name": "Forest priest",
+      "description": "Fierce forest priest, menacing"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Introduction",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[warmly] Welcome to LitBridge, where stories cross languages. Today's story comes from the Hindi tradition. It is one of the many tales told about the Mughal emperor Akbar and his clever minister Birbal. It is called... Whatever Happens, Happens for Good."
+        }
+      ]
+    },
+    {
+      "title": "A cut finger",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Emperor Akbar was peeling a mango in the palace garden when the knife slipped... and cut deep into his finger."
+        },
+        {
+          "speaker": "akbar",
+          "text": "[pained] Aah!"
+        },
+        {
+          "speaker": "narrator",
+          "text": "[amused] The courtiers fussed and called for the royal physician. Birbal, who stood nearby, only said..."
+        },
+        {
+          "speaker": "birbal",
+          "text": "[calmly] Jahanpanah, whatever happens, happens for good."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The emperor, his finger throbbing, did not find this wise at all."
+        },
+        {
+          "speaker": "akbar",
+          "text": "[angry] You call my pain good? Guards! Take him to the prison. Let us see if he finds THAT good too."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[chuckles softly] Birbal bowed and went quietly, repeating the same words under his breath."
+        }
+      ]
+    },
+    {
+      "title": "Lost in the forest",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "A few days later, Akbar rode out to hunt. Chasing a deer, he left his escort behind... and lost his way in the forest."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[tense] A band of forest dwellers seized him. Their priest made an announcement."
+        },
+        {
+          "speaker": "priest",
+          "text": "[menacing] The goddess requires a sacrifice tonight. And this tall, well-fed stranger will do perfectly."
+        },
+        {
+          "speaker": "narrator",
+          "text": "They bathed him, dressed him in red, and led him to the altar. But as the priest made his final inspection, he noticed the bandaged finger."
+        },
+        {
+          "speaker": "priest",
+          "text": "[disgusted] This man is not whole! The goddess will not accept a wounded offering."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[relieved] Grumbling, they untied the emperor and drove him out of the forest."
+        }
+      ]
+    },
+    {
+      "title": "The lesson",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Akbar found his way back to the palace and went straight to the prison. He freed Birbal with his own hands."
+        },
+        {
+          "speaker": "akbar",
+          "text": "[humbled] You were right. Losing a little of my finger saved my whole life. But tell me... how was it good for YOU to spend these days in a cell?"
+        },
+        {
+          "speaker": "birbal",
+          "text": "[smiling] Jahanpanah, had I not been in prison, I would have ridden with you as always. [short pause] And when the priest found you unfit... he would have looked at the man beside you. Who had no cut at all."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[laughs] The emperor laughed until the hall rang. And from that day, he complained a little less about small misfortunes."
+        }
+      ]
+    },
+    {
+      "title": "Afterword",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[gently] It is a story about trusting that a misfortune may carry a gift we cannot yet see. Thank you for listening to LitBridge."
+        }
+      ]
+    }
+  ]
+}

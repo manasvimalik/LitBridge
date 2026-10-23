@@ -1,0 +1,117 @@
+{
+  "workId": "chimni-kavla",
+  "title": "The Sparrow's House of Wax",
+  "director": "claude-opus-5-5 (authored in Claude Code, same rules as scripts/audio/direct.ts)",
+  "cast": [
+    {
+      "id": "narrator",
+      "name": "Narrator",
+      "description": "Playful nursery storyteller, sing-song"
+    },
+    {
+      "id": "chimni",
+      "name": "Chimni the sparrow",
+      "description": "Careful, kind mother sparrow, sweet but sharp"
+    },
+    {
+      "id": "kavla",
+      "name": "Kavla the crow",
+      "description": "Careless, cheeky, whiny crow"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Introduction",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[warmly] Welcome to LitBridge, where stories cross languages. Today's story comes from the Marathi tradition. Every child in Maharashtra knows this nursery tale. It is called... The Sparrow's House of Wax."
+        }
+      ]
+    },
+    {
+      "title": "Wax and dung",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[sing-song] Every child in Maharashtra knows how this story begins. The sparrow's house was made of wax... and the crow's house was made of dung."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The sparrow, Chimni, had built slowly and carefully. She collected beeswax drop by drop and shaped it into a snug little house, with a door that shut tight."
+        },
+        {
+          "speaker": "kavla",
+          "text": "[cawing laugh] Caw caw! All that work for a house? Mine took one afternoon!"
+        },
+        {
+          "speaker": "narrator",
+          "text": "[amused] He had slapped his house together out of cow dung, and spent the rest of the summer cawing on rooftops."
+        }
+      ]
+    },
+    {
+      "title": "The monsoon",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Then the monsoon arrived. The rain came down in sheets for days. Kavla's dung house melted, slid off the branch... and was gone."
+        },
+        {
+          "speaker": "kavla",
+          "text": "[shivering, whiny] Chimnitai, Chimnitai, open the door! My house has washed away!"
+        },
+        {
+          "speaker": "chimni",
+          "text": "[sweetly] Wait a moment. I am bathing my baby."
+        },
+        {
+          "speaker": "kavla",
+          "text": "[pleading] Chimnitai, please open the door!"
+        },
+        {
+          "speaker": "chimni",
+          "text": "Wait a moment. I am feeding my baby."
+        },
+        {
+          "speaker": "kavla",
+          "text": "[teeth chattering] Chimnitai, I am FREEZING!"
+        },
+        {
+          "speaker": "chimni",
+          "text": "Wait a moment, I am putting my baby to sleep. [short pause] There. Come in, and warm yourself by the stove."
+        }
+      ]
+    },
+    {
+      "title": "The hot ladle",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[conspiratorial] But the crow was a crow. When the sparrow stepped out, he ate up all the food she had stored for her baby... and pretended to be asleep."
+        },
+        {
+          "speaker": "narrator",
+          "text": "When she came home and found the pots empty, she understood. Without a word, she heated the iron ladle in the stove, and set it, very lightly, against the crow's tail feathers."
+        },
+        {
+          "speaker": "kavla",
+          "text": "[yelps] CAAAW! Ow ow ow!"
+        },
+        {
+          "speaker": "narrator",
+          "text": "[laughs] Kavla shot out of the house, and never came back."
+        }
+      ]
+    },
+    {
+      "title": "Afterword",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[warmly] Marathi grandmothers end the story by reminding their grandchildren that kindness is good, but a little wax and a little sense are good too. Thank you for listening to LitBridge."
+        }
+      ]
+    }
+  ]
+}

@@ -15,5 +15,260 @@
       "name": "Jeevan",
       "manifest": "/audio/kabuliwala/jeevan.json"
     }
+  ],
+  "akbar-birbal-for-good": [
+    {
+      "key": "ranbir",
+      "name": "Ranbir",
+      "manifest": "/audio/akbar-birbal-for-good/ranbir.json"
+    },
+    {
+      "key": "riya",
+      "name": "Riya",
+      "manifest": "/audio/akbar-birbal-for-good/riya.json"
+    },
+    {
+      "key": "jeevan",
+      "name": "Jeevan",
+      "manifest": "/audio/akbar-birbal-for-good/jeevan.json"
+    }
+  ],
+  "farmer-sage-treasure": [
+    {
+      "key": "ranbir",
+      "name": "Ranbir",
+      "manifest": "/audio/farmer-sage-treasure/ranbir.json"
+    },
+    {
+      "key": "riya",
+      "name": "Riya",
+      "manifest": "/audio/farmer-sage-treasure/riya.json"
+    },
+    {
+      "key": "jeevan",
+      "name": "Jeevan",
+      "manifest": "/audio/farmer-sage-treasure/jeevan.json"
+    }
+  ],
+  "idgah": [
+    {
+      "key": "ranbir",
+      "name": "Ranbir",
+      "manifest": "/audio/idgah/ranbir.json"
+    },
+    {
+      "key": "riya",
+      "name": "Riya",
+      "manifest": "/audio/idgah/riya.json"
+    },
+    {
+      "key": "jeevan",
+      "name": "Jeevan",
+      "manifest": "/audio/idgah/jeevan.json"
+    }
+  ],
+  "shatranj-ke-khiladi": [
+    {
+      "key": "ranbir",
+      "name": "Ranbir",
+      "manifest": "/audio/shatranj-ke-khiladi/ranbir.json"
+    },
+    {
+      "key": "riya",
+      "name": "Riya",
+      "manifest": "/audio/shatranj-ke-khiladi/riya.json"
+    },
+    {
+      "key": "jeevan",
+      "name": "Jeevan",
+      "manifest": "/audio/shatranj-ke-khiladi/jeevan.json"
+    }
+  ],
+  "lalkamal-neelkamal": [
+    {
+      "key": "ranbir",
+      "name": "Ranbir",
+      "manifest": "/audio/lalkamal-neelkamal/ranbir.json"
+    },
+    {
+      "key": "riya",
+      "name": "Riya",
+      "manifest": "/audio/lalkamal-neelkamal/riya.json"
+    },
+    {
+      "key": "jeevan",
+      "name": "Jeevan",
+      "manifest": "/audio/lalkamal-neelkamal/jeevan.json"
+    }
+  ],
+  "tejimola": [
+    {
+      "key": "ranbir",
+      "name": "Ranbir",
+      "manifest": "/audio/tejimola/ranbir.json"
+    },
+    {
+      "key": "riya",
+      "name": "Riya",
+      "manifest": "/audio/tejimola/riya.json"
+    },
+    {
+      "key": "jeevan",
+      "name": "Jeevan",
+      "manifest": "/audio/tejimola/jeevan.json"
+    }
+  ],
+  "monkey-crocodile": [
+    {
+      "key": "ranbir",
+      "name": "Ranbir",
+      "manifest": "/audio/monkey-crocodile/ranbir.json"
+    },
+    {
+      "key": "riya",
+      "name": "Riya",
+      "manifest": "/audio/monkey-crocodile/riya.json"
+    },
+    {
+      "key": "jeevan",
+      "name": "Jeevan",
+      "manifest": "/audio/monkey-crocodile/jeevan.json"
+    }
+  ],
+  "avvaiyar-jamun": [
+    {
+      "key": "ranbir",
+      "name": "Ranbir",
+      "manifest": "/audio/avvaiyar-jamun/ranbir.json"
+    },
+    {
+      "key": "riya",
+      "name": "Riya",
+      "manifest": "/audio/avvaiyar-jamun/riya.json"
+    },
+    {
+      "key": "jeevan",
+      "name": "Jeevan",
+      "manifest": "/audio/avvaiyar-jamun/jeevan.json"
+    }
+  ],
+  "tenali-thieves": [
+    {
+      "key": "ranbir",
+      "name": "Ranbir",
+      "manifest": "/audio/tenali-thieves/ranbir.json"
+    },
+    {
+      "key": "riya",
+      "name": "Riya",
+      "manifest": "/audio/tenali-thieves/riya.json"
+    },
+    {
+      "key": "jeevan",
+      "name": "Jeevan",
+      "manifest": "/audio/tenali-thieves/jeevan.json"
+    }
+  ],
+  "punyakoti": [
+    {
+      "key": "ranbir",
+      "name": "Ranbir",
+      "manifest": "/audio/punyakoti/ranbir.json"
+    },
+    {
+      "key": "riya",
+      "name": "Riya",
+      "manifest": "/audio/punyakoti/riya.json"
+    },
+    {
+      "key": "jeevan",
+      "name": "Jeevan",
+      "manifest": "/audio/punyakoti/jeevan.json"
+    }
+  ],
+  "chimni-kavla": [
+    {
+      "key": "ranbir",
+      "name": "Ranbir",
+      "manifest": "/audio/chimni-kavla/ranbir.json"
+    },
+    {
+      "key": "riya",
+      "name": "Riya",
+      "manifest": "/audio/chimni-kavla/riya.json"
+    },
+    {
+      "key": "jeevan",
+      "name": "Jeevan",
+      "manifest": "/audio/chimni-kavla/jeevan.json"
+    }
+  ],
+  "narsinh-hundi": [
+    {
+      "key": "ranbir",
+      "name": "Ranbir",
+      "manifest": "/audio/narsinh-hundi/ranbir.json"
+    },
+    {
+      "key": "riya",
+      "name": "Riya",
+      "manifest": "/audio/narsinh-hundi/riya.json"
+    },
+    {
+      "key": "jeevan",
+      "name": "Jeevan",
+      "manifest": "/audio/narsinh-hundi/jeevan.json"
+    }
+  ],
+  "heer-ranjha": [
+    {
+      "key": "ranbir",
+      "name": "Ranbir",
+      "manifest": "/audio/heer-ranjha/ranbir.json"
+    },
+    {
+      "key": "riya",
+      "name": "Riya",
+      "manifest": "/audio/heer-ranjha/riya.json"
+    },
+    {
+      "key": "jeevan",
+      "name": "Jeevan",
+      "manifest": "/audio/heer-ranjha/jeevan.json"
+    }
+  ],
+  "mahabali-onam": [
+    {
+      "key": "ranbir",
+      "name": "Ranbir",
+      "manifest": "/audio/mahabali-onam/ranbir.json"
+    },
+    {
+      "key": "riya",
+      "name": "Riya",
+      "manifest": "/audio/mahabali-onam/riya.json"
+    },
+    {
+      "key": "jeevan",
+      "name": "Jeevan",
+      "manifest": "/audio/mahabali-onam/jeevan.json"
+    }
+  ],
+  "dharmapada-konark": [
+    {
+      "key": "ranbir",
+      "name": "Ranbir",
+      "manifest": "/audio/dharmapada-konark/ranbir.json"
+    },
+    {
+      "key": "riya",
+      "name": "Riya",
+      "manifest": "/audio/dharmapada-konark/riya.json"
+    },
+    {
+      "key": "jeevan",
+      "name": "Jeevan",
+      "manifest": "/audio/dharmapada-konark/jeevan.json"
+    }
   ]
 }

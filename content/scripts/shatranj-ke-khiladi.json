@@ -1,0 +1,126 @@
+{
+  "workId": "shatranj-ke-khiladi",
+  "title": "The Chess Players",
+  "director": "claude-opus-5-5 (authored in Claude Code, same rules as scripts/audio/direct.ts)",
+  "cast": [
+    {
+      "id": "narrator",
+      "name": "Narrator",
+      "description": "Ironic, measured storyteller with a satirical edge"
+    },
+    {
+      "id": "mirza",
+      "name": "Mirza Sajjad Ali",
+      "description": "Lucknow nobleman, middle-aged, refined, touchy about his pride"
+    },
+    {
+      "id": "mir",
+      "name": "Mir Roshan Ali",
+      "description": "Lucknow nobleman, middle-aged, lively, quick to insult"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Introduction",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[warmly] Welcome to LitBridge, where stories cross languages. Today's story comes from the Urdu tradition. It was written in 1924 by Munshi Premchand. It is called... The Chess Players."
+        }
+      ]
+    },
+    {
+      "title": "A city at play",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[wry] Lucknow, under Nawab Wajid Ali Shah, is a city of poetry, dance, kite-flying and pleasure. Nobody takes the affairs of state seriously."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Mirza Sajjad Ali and Mir Roshan Ali are two minor noblemen whose whole world is a chessboard. They play from breakfast until midnight. Meals go cold. Servants grumble."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[amused] Mirza's wife, tired of a husband who forgets her, has the pieces thrown out. So the game moves to Mir's house... where Mir's wife is perfectly happy to have her husband occupied, for her own reasons."
+        }
+      ]
+    },
+    {
+      "title": "The summons",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "When an officer comes with a summons to serve in the Nawab's army, the two friends panic."
+        },
+        {
+          "speaker": "mir",
+          "text": "[alarmed whisper] Mirza Sahib! They want us for the army!"
+        },
+        {
+          "speaker": "mirza",
+          "text": "[hurried] Pack the board. We'll go where no one can find us."
+        },
+        {
+          "speaker": "narrator",
+          "text": "They slip out to an abandoned mosque on the far bank of the Gomti. Day after day, they cross the river to play among the ruins."
+        }
+      ]
+    },
+    {
+      "title": "The king goes into exile",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[grave] One afternoon, a column of East India Company soldiers marches past on the road below. The kingdom of Awadh is being annexed, and its king taken away into exile."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[long pause] Not a single sword is raised to stop it."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[bitter irony] The two friends watch for a moment... shrug... and go back to the game."
+        }
+      ]
+    },
+    {
+      "title": "Check",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "That evening, as the light fades, a quarrel begins over a move."
+        },
+        {
+          "speaker": "mir",
+          "text": "[accusing] You moved that piece back! You're cheating!"
+        },
+        {
+          "speaker": "mirza",
+          "text": "[offended] Cheating? Your family were grass-cutters before they were ever nobles!"
+        },
+        {
+          "speaker": "mir",
+          "text": "[furious] And yours? Mine at least kept their honour!"
+        },
+        {
+          "speaker": "narrator",
+          "text": "[tense] Pride, which could not stir them for their king, stirs them now. They draw their swords and fight... and both fall dead beside the board."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[slowly] Premchand ends on the chess pieces. The two kings sit on their thrones, unmoved... as though mourning the two warriors who died for them."
+        }
+      ]
+    },
+    {
+      "title": "Afterword",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[thoughtful] It is a story about a ruling class too absorbed in its games to notice it was losing everything. Thank you for listening to LitBridge."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "workId": "tenali-thieves",
+  "title": "Tenali Rama and the Thieves",
+  "director": "claude-opus-5-5 (authored in Claude Code, same rules as scripts/audio/direct.ts)",
+  "cast": [
+    {
+      "id": "narrator",
+      "name": "Narrator",
+      "description": "Playful, comic storyteller"
+    },
+    {
+      "id": "tenali",
+      "name": "Tenali Rama",
+      "description": "Witty court jester-poet, mischievous adult man"
+    },
+    {
+      "id": "wife",
+      "name": "Tenali's wife",
+      "description": "Sharp, amused wife who plays along"
+    },
+    {
+      "id": "thief",
+      "name": "Thieves' leader",
+      "description": "Gruff, greedy thief, low voice"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Introduction",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[warmly] Welcome to LitBridge, where stories cross languages. Today's story comes from the Telugu tradition. It is one of the tales of Tenali Ramakrishna, the jester-poet of the court of Vijayanagara. It is called... Tenali Rama and the Thieves."
+        }
+      ]
+    },
+    {
+      "title": "A thirsty garden",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Tenali Ramakrishna was famous for turning trouble into a joke, and a joke into a lesson."
+        },
+        {
+          "speaker": "narrator",
+          "text": "One summer the rains failed. The wells sank low, and Tenali's garden withered. Drawing enough water to save it would take him all night... [amused] and he was not fond of hard work."
+        },
+        {
+          "speaker": "narrator",
+          "text": "That evening, coming home, he noticed shadows crouched behind the bushes. Thieves, he thought, waiting for the lamps to go out."
+        }
+      ]
+    },
+    {
+      "title": "The trunk in the well",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "He went inside, stood right by the window, and spoke in a loud, worried voice."
+        },
+        {
+          "speaker": "tenali",
+          "text": "[loudly, theatrical] Wife! There are thieves about this season. Our jewels and silver are not safe. Let us put them in the trunk and drop it into the well. No one will think to look there!"
+        },
+        {
+          "speaker": "wife",
+          "text": "[playing along, loudly] What a clever idea! Quickly, before anyone sees!"
+        },
+        {
+          "speaker": "narrator",
+          "text": "Together they filled the old trunk with stones, carried it out with great show, and heaved it into the well... with a mighty splash. Then they blew out the lamp."
+        }
+      ]
+    },
+    {
+      "title": "A night's work",
+      "lines": [
+        {
+          "speaker": "thief",
+          "text": "[whispering, greedy] The trunk's at the bottom. Draw out the water. All of it."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[amused] Bucket after bucket, they hauled up water and poured it on the ground, which drank it gratefully, all through the night."
+        },
+        {
+          "speaker": "tenali",
+          "text": "[whispers, giggling] Wife... I think they're watering the chillies now."
+        },
+        {
+          "speaker": "tenali",
+          "text": "[whispers] Now the banana trees."
+        },
+        {
+          "speaker": "narrator",
+          "text": "At dawn, sore and soaked, the thieves finally pulled up the trunk, and found it full of stones."
+        },
+        {
+          "speaker": "tenali",
+          "text": "[cheerfully, stretching] Thank you, friends! Come back next week... the mango trees are thirsty too!"
+        },
+        {
+          "speaker": "narrator",
+          "text": "[laughs] The thieves ran. And his garden was the greenest in the city that summer."
+        }
+      ]
+    },
+    {
+      "title": "Afterword",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[warmly] Tenali's tales remind us that a quick mind can turn even a threat into help. Thank you for listening to LitBridge."
+        }
+      ]
+    }
+  ]
+}

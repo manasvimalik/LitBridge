@@ -1,0 +1,105 @@
+{
+  "workId": "lalkamal-neelkamal",
+  "title": "Lalkamal and Neelkamal",
+  "director": "claude-opus-5-5 (authored in Claude Code, same rules as scripts/audio/direct.ts)",
+  "cast": [
+    {
+      "id": "narrator",
+      "name": "Narrator",
+      "description": "Grandmotherly fairy-tale storyteller, dramatic"
+    },
+    {
+      "id": "neelkamal",
+      "name": "Neelkamal",
+      "description": "Brave boy with demon blood, answers demons in a deep booming voice"
+    },
+    {
+      "id": "demons",
+      "name": "The demons",
+      "description": "Chorus of hungry demons, growling, sinister"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Introduction",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[warmly] Welcome to LitBridge, where stories cross languages. Today's story comes from the Bengali tradition. It is from Thakurmar Jhuli, Grandmother's Bag of Tales, collected by Dakshinaranjan Mitra Majumder in 1907. It is called... Lalkamal and Neelkamal."
+        }
+      ]
+    },
+    {
+      "title": "Two queens, two sons",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[storytelling] A king had two queens. One was a woman. The other was a rakkhoshi, a demoness who had taken the shape of a beautiful woman... and had begun, very quietly, to eat the kingdom's elephants and horses at night."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Each queen had a son. The woman's son was Lalkamal, the red lotus. The rakkhoshi's son was Neelkamal, the blue lotus. [warmly] Although his mother was a demon, Neelkamal loved his brother more than anything."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The rakkhoshi queen hated the human boy and wanted to eat him. But Neelkamal, with demon blood and demon senses, always knew when she was near. In the end, the boys fled the palace together."
+        }
+      ]
+    },
+    {
+      "title": "The night watch",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "They reached a kingdom where demons came out every night and carried someone away. The brothers volunteered to keep watch."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[whispers] At midnight, the demons came... sniffing."
+        },
+        {
+          "speaker": "demons",
+          "text": "[growling] Hau mau khau... manusher gondho pau! We smell a human here!"
+        },
+        {
+          "speaker": "narrator",
+          "text": "Neelkamal answered from the dark, in a voice as deep as theirs."
+        },
+        {
+          "speaker": "neelkamal",
+          "text": "[booming] Lalkamal is awake. Neelkamal is awake. And the sword is awake too!"
+        },
+        {
+          "speaker": "narrator",
+          "text": "[tense] The demons, hearing a demon's voice, grew uneasy. They asked riddles, and Neelkamal answered each one. They came closer... and Lalkamal's sword met them."
+        }
+      ]
+    },
+    {
+      "title": "The birds in the pillar",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "By dawn the demons were scattered. The brothers followed them home, and found that the creatures' lives were kept in a pair of birds, hidden inside a pillar."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[dramatic] When they crushed the birds, the demons died. And so did the rakkhoshi queen, far away in their father's palace."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[warmly] The brothers returned home to a kingdom that was at last safe. And every child in Bengal who hears this story learns to say the brave words in the dark."
+        }
+      ]
+    },
+    {
+      "title": "Afterword",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[gently] It is a story about a brotherhood stronger than blood, and courage that answers fear in its own voice. Thank you for listening to LitBridge."
+        }
+      ]
+    }
+  ]
+}

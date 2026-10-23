@@ -1,0 +1,131 @@
+{
+  "workId": "heer-ranjha",
+  "title": "Heer Ranjha",
+  "director": "claude-opus-5-5 (authored in Claude Code, same rules as scripts/audio/direct.ts)",
+  "cast": [
+    {
+      "id": "narrator",
+      "name": "Narrator",
+      "description": "Lyrical, romantic, sorrowful storyteller"
+    },
+    {
+      "id": "heer",
+      "name": "Heer",
+      "description": "Young woman, beautiful, fiery and defiant"
+    },
+    {
+      "id": "ranjha",
+      "name": "Ranjha",
+      "description": "Young man, dreamy flute-player, devoted"
+    },
+    {
+      "id": "kaido",
+      "name": "Kaido",
+      "description": "Heer's spiteful, scheming uncle, sinister"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Introduction",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[warmly] Welcome to LitBridge, where stories cross languages. Today's story comes from the Punjabi tradition. Its most famous telling is the verse of the Sufi poet Waris Shah, written in 1766. It is called... Heer Ranjha."
+        }
+      ]
+    },
+    {
+      "title": "The flute player",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Dhido Ranjha was the youngest of eight brothers in Takht Hazara, on the Chenab. He played the flute more often than he worked. When his father died, his brothers cheated him of good land... and one morning, he took his flute and walked away."
+        },
+        {
+          "speaker": "narrator",
+          "text": "He crossed the river to Jhang, where the chieftain's daughter Heer was the most beautiful girl in the Punjab. Ranjha fell asleep on her boat, and she woke him in a fury."
+        },
+        {
+          "speaker": "heer",
+          "text": "[angry] Who are you, sleeping on MY boat?"
+        },
+        {
+          "speaker": "ranjha",
+          "text": "[dreamy, smiling] Someone who just woke to the most beautiful sight on the Chenab."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[warmly] By the end of the argument... they were in love."
+        }
+      ]
+    },
+    {
+      "title": "Love by the river",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "To stay near her, Ranjha became a cowherd for her father. Every day he took the buffaloes to graze by the river, and every day Heer brought him churi, crumbled bread with butter and sugar."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[softly] They met among the trees while he played the flute."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[darker] But Heer's uncle Kaido, lame and spiteful, spied on them."
+        },
+        {
+          "speaker": "kaido",
+          "text": "[sinister] Brother, your daughter shames us. With a cowherd. Every day by the river."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Furious, her family married Heer by force to Saida Khera, a man from another village. The qazi read the vows... while Heer refused to say them."
+        }
+      ]
+    },
+    {
+      "title": "The jogi",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[sorrowful] Ranjha, broken-hearted, went to the hermitage at Tilla Jogian. He had his ears pierced and became a jogi, a wandering ascetic."
+        },
+        {
+          "speaker": "narrator",
+          "text": "He went begging from door to door in the Kheras' village, until he found Heer. With the help of Saida's sister Sehti, the lovers escaped."
+        },
+        {
+          "speaker": "heer",
+          "text": "[breathless, joyful] Ranjha! I knew you would come."
+        },
+        {
+          "speaker": "narrator",
+          "text": "They were caught, brought before the raja, and at last allowed to marry. Heer's family pretended to welcome them home."
+        }
+      ]
+    },
+    {
+      "title": "Poison",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[grave] But on the day of the wedding, Kaido poisoned her sweets. [long pause] Heer died."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[heartbroken] When Ranjha heard, he ate the poisoned sweets too... and died beside her."
+        }
+      ]
+    },
+    {
+      "title": "Afterword",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[gently] Waris Shah's verse is still quoted in Lahore and Amritsar alike, a love story that belongs to both sides of the border. Thank you for listening to LitBridge."
+        }
+      ]
+    }
+  ]
+}

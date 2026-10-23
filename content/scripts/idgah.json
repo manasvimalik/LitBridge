@@ -1,0 +1,139 @@
+{
+  "workId": "idgah",
+  "title": "Idgah",
+  "director": "claude-opus-5-5 (authored in Claude Code, same rules as scripts/audio/direct.ts)",
+  "cast": [
+    {
+      "id": "narrator",
+      "name": "Narrator",
+      "description": "Warm, tender adult storyteller"
+    },
+    {
+      "id": "hamid",
+      "name": "Hamid",
+      "description": "Four-year-old boy, poor, thoughtful, quietly proud"
+    },
+    {
+      "id": "mahmood",
+      "name": "Mahmood",
+      "description": "Small boy, Hamid's friend, boastful and teasing"
+    },
+    {
+      "id": "amina",
+      "name": "Amina",
+      "description": "Hamid's grandmother, old, poor, loving, worried"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Introduction",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[warmly] Welcome to LitBridge, where stories cross languages. Today's story comes from the Hindi tradition. It was written in 1933 by Munshi Premchand, the father of the modern Hindi short story. It is called... Idgah."
+        }
+      ]
+    },
+    {
+      "title": "Eid morning",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[joyful] Eid arrives in the village after thirty days of fasting... and the children are the happiest of all. They count and recount their coins, because today they will walk to the Idgah, and then to the fair."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[softer] Hamid is the poorest of them. His parents are dead, though he believes his father has gone to earn money, and his mother has gone to bring gifts from Allah."
+        },
+        {
+          "speaker": "narrator",
+          "text": "He lives with his grandmother Amina, who has managed to give him three paise. She worries all morning about letting such a small child walk so far, but she has no one to send with him."
+        },
+        {
+          "speaker": "amina",
+          "text": "[worried] Hamid, beta... stay close to the other boys. Don't wander off."
+        }
+      ]
+    },
+    {
+      "title": "The fair",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "At the fair his friends spend freely. Mahmood buys a clay soldier. Mohsin, a water carrier. Noore, a lawyer in a black coat. They buy sweets, and eat them slowly in front of Hamid."
+        },
+        {
+          "speaker": "mahmood",
+          "text": "[teasing, mouth full] Mmm... want some, Hamid? Oh, you don't have any. [giggles]"
+        },
+        {
+          "speaker": "hamid",
+          "text": "[proudly] Sweets rot your teeth. And your clay toys will break by evening."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[tender] Then he sees a hardware stall... and a pair of iron tongs. He remembers his grandmother pulling rotis off the griddle with bare hands, and the burns on her fingers."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[amused] He bargains hard, and the tongs are his, for three paise."
+        }
+      ]
+    },
+    {
+      "title": "The walk home",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "On the walk home, the other boys laugh at him."
+        },
+        {
+          "speaker": "mahmood",
+          "text": "[laughing] Tongs? You bought TONGS at the fair?"
+        },
+        {
+          "speaker": "hamid",
+          "text": "[fiercely] My tongs are a soldier. They'll smash your soldier to pieces. No water carrier can stand against them!"
+        },
+        {
+          "speaker": "narrator",
+          "text": "[chuckles] Before the village comes into sight, their toys are chipped... and every boy wants a turn holding the tongs."
+        }
+      ]
+    },
+    {
+      "title": "Amina's tears",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "When Amina sees what he has bought, she scolds him."
+        },
+        {
+          "speaker": "amina",
+          "text": "[scolding] Have you eaten nothing all day? You spent your Eid money on... on tongs?"
+        },
+        {
+          "speaker": "hamid",
+          "text": "[quietly] Your fingers burn on the tawa, Dadi. So I brought these."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[moved] And the old woman understands. She starts to cry."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[softly] In Premchand's telling, the little boy has played the part of an old man... and the old woman has turned into a child."
+        }
+      ]
+    },
+    {
+      "title": "Afterword",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[gently] Idgah is a story about love that gives up its own small joys without a second thought. Thank you for listening to LitBridge."
+        }
+      ]
+    }
+  ]
+}

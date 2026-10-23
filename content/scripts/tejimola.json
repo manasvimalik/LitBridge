@@ -1,0 +1,130 @@
+{
+  "workId": "tejimola",
+  "title": "Tejimola",
+  "director": "claude-opus-5-5 (authored in Claude Code, same rules as scripts/audio/direct.ts)",
+  "cast": [
+    {
+      "id": "narrator",
+      "name": "Narrator",
+      "description": "Gentle, haunting fairy-tale storyteller"
+    },
+    {
+      "id": "tejimola",
+      "name": "Tejimola",
+      "description": "Young girl, gentle; sings sadly as a spirit"
+    },
+    {
+      "id": "stepmother",
+      "name": "Stepmother",
+      "description": "Jealous, cruel stepmother, cold and sharp"
+    },
+    {
+      "id": "merchant",
+      "name": "The merchant",
+      "description": "Tejimola's father, a loving merchant, grieving then joyful"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Introduction",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[warmly] Welcome to LitBridge, where stories cross languages. Today's story comes from the Assamese tradition. It is from Burhi Aair Xadhu, Grandmother's Tales, collected by Lakshminath Bezbaroa in 1911. It is called... Tejimola."
+        }
+      ]
+    },
+    {
+      "title": "A stepmother's jealousy",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Tejimola was the only daughter of a merchant in a village on the Brahmaputra. Her mother had died, and her father had married again."
+        },
+        {
+          "speaker": "narrator",
+          "text": "When he left for a long trading voyage, he asked his new wife to care for the girl as her own."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[darker] But the stepmother resented Tejimola's sweetness, and the way the neighbours loved her. When a friend invited Tejimola to a wedding, the stepmother handed her a bundle of fine clothes."
+        },
+        {
+          "speaker": "stepmother",
+          "text": "[sweetly false] Wear these, child. Look beautiful."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[ominous] She had hidden a mouse and a burning coal inside. At the wedding, the clothes were found chewed and scorched."
+        },
+        {
+          "speaker": "stepmother",
+          "text": "[cold fury] Careless girl! Do you know what those cost?"
+        },
+        {
+          "speaker": "narrator",
+          "text": "[softly, grave] In her rage, she crushed the girl in the dheki, the wooden rice-pounder. Then she buried her in the garden."
+        }
+      ]
+    },
+    {
+      "title": "The singing vine",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "A gourd vine sprang up from the spot. When a beggar woman tried to pick a gourd, a voice sang from it."
+        },
+        {
+          "speaker": "tejimola",
+          "text": "[singing softly, sad] Do not pick me, I am Tejimola... my stepmother pounded me in the dheki."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The stepmother tore the vine out and threw it away. Where it fell grew a plum tree, and the cowherd boys who reached for its fruit heard the same song."
+        },
+        {
+          "speaker": "narrator",
+          "text": "She cut down the tree. And from the river where she threw it... bloomed a lotus."
+        }
+      ]
+    },
+    {
+      "title": "The lotus",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[hopeful] At last, the merchant's boat came home along the river. Seeing the beautiful lotus, he reached for it, and the flower sang to him."
+        },
+        {
+          "speaker": "tejimola",
+          "text": "[singing softly] Do not pick me, Father... I am Tejimola."
+        },
+        {
+          "speaker": "merchant",
+          "text": "[trembling] Tejimola? If you are truly my Tejimola... come to me as a bird."
+        },
+        {
+          "speaker": "narrator",
+          "text": "A small bird flew onto his palm."
+        },
+        {
+          "speaker": "merchant",
+          "text": "[tearful] Then come back to me... as my daughter."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[joyful] And she became his daughter again. The stepmother, seeing the girl return, fled the village in shame, and Tejimola grew up in her father's house."
+        }
+      ]
+    },
+    {
+      "title": "Afterword",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[gently] Tejimola is a story about innocence that cannot be buried. Nature itself keeps singing the truth. Thank you for listening to LitBridge."
+        }
+      ]
+    }
+  ]
+}

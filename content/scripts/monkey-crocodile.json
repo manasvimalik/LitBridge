@@ -1,0 +1,118 @@
+{
+  "workId": "monkey-crocodile",
+  "title": "The Monkey and the Crocodile",
+  "director": "claude-opus-5-5 (authored in Claude Code, same rules as scripts/audio/direct.ts)",
+  "cast": [
+    {
+      "id": "narrator",
+      "name": "Narrator",
+      "description": "Lively fable storyteller"
+    },
+    {
+      "id": "monkey",
+      "name": "Raktamukha the monkey",
+      "description": "Clever, cheerful young monkey, generous and quick-thinking"
+    },
+    {
+      "id": "crocodile",
+      "name": "Karalamukha the crocodile",
+      "description": "Slow, foolish, guilt-ridden crocodile, adult male"
+    },
+    {
+      "id": "wife",
+      "name": "Crocodile's wife",
+      "description": "Scheming, greedy crocodile wife, sinister"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Introduction",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[warmly] Welcome to LitBridge, where stories cross languages. Today's story comes from the Sanskrit tradition. It is from the Panchatantra, the ancient book of fables attributed to Vishnu Sharma. It is called... The Monkey and the Crocodile."
+        }
+      ]
+    },
+    {
+      "title": "A sweet friendship",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "On the bank of a wide river stood a rose-apple tree, and in it lived a monkey named Raktamukha."
+        },
+        {
+          "speaker": "narrator",
+          "text": "One day a crocodile named Karalamukha crawled out of the water to rest in its shade. The monkey, being a good host, threw him some of the sweet fruit."
+        },
+        {
+          "speaker": "monkey",
+          "text": "[cheerful] Here, friend! Try these. Sweetest rose-apples on the whole river!"
+        },
+        {
+          "speaker": "narrator",
+          "text": "[warmly] The crocodile came back the next day, and the next, and the two became fast friends. He always took some fruit home to his wife."
+        }
+      ]
+    },
+    {
+      "title": "The wife's demand",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[ominous] The wife began to think."
+        },
+        {
+          "speaker": "wife",
+          "text": "[slow, scheming] If the fruit is so sweet... how much sweeter must be the heart of a monkey who eats it every day? Bring me that heart. Or I will not eat, or speak to you, ever again."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The crocodile was torn. But in the end, he went to the tree."
+        },
+        {
+          "speaker": "crocodile",
+          "text": "[nervous] My friend... my wife wants to thank you. Come to dinner! Climb on my back, I'll carry you across."
+        }
+      ]
+    },
+    {
+      "title": "Midstream",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "The monkey happily agreed. But in the middle of the river, where the water was deepest, the crocodile felt guilty... and confessed."
+        },
+        {
+          "speaker": "crocodile",
+          "text": "[guilty] My wife... wants your heart."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[tense] The monkey's blood ran cold. But his voice stayed calm."
+        },
+        {
+          "speaker": "monkey",
+          "text": "[casually] Oh, my friend, why didn't you say so before? We monkeys keep our hearts safe in the hollow of the tree when we travel. Take me back, and I'll fetch it for her gladly."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[amused] The foolish crocodile turned around. The moment they reached the bank, the monkey leapt into the highest branches."
+        },
+        {
+          "speaker": "monkey",
+          "text": "[laughing, then firm] Fool! Who can take his heart out of his body? Go home. Our friendship is over. Someone who betrays a friend once will do it again."
+        }
+      ]
+    },
+    {
+      "title": "Afterword",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[warmly] The Panchatantra teaches that presence of mind is worth more than strength, and that trust once broken is hard to mend. Thank you for listening to LitBridge."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "workId": "mahabali-onam",
+  "title": "Mahabali and the Return of Onam",
+  "director": "claude-opus-5-5 (authored in Claude Code, same rules as scripts/audio/direct.ts)",
+  "cast": [
+    {
+      "id": "narrator",
+      "name": "Narrator",
+      "description": "Warm, festive, reverent storyteller"
+    },
+    {
+      "id": "mahabali",
+      "name": "King Mahabali",
+      "description": "Generous, noble asura king, deep and dignified"
+    },
+    {
+      "id": "vamana",
+      "name": "Vamana",
+      "description": "Small Brahmin boy, innocent voice that turns cosmic"
+    },
+    {
+      "id": "shukracharya",
+      "name": "Shukracharya",
+      "description": "Old royal guru, wary, urgent"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Introduction",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[warmly] Welcome to LitBridge, where stories cross languages. Today's story comes from the Malayalam tradition. It is the legend behind Onam, Kerala's harvest festival. It is called... Mahabali and the Return of Onam."
+        }
+      ]
+    },
+    {
+      "title": "A golden age",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[warmly] Long ago, Kerala was ruled by Mahabali, a king of the asuras. Under his rule, the old song says, all people were equal. There was no deceit, no theft, no false weight in the market, no hunger and no disease."
+        },
+        {
+          "speaker": "narrator",
+          "text": "People left their doors open at night."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[ominous] The gods in heaven grew anxious. They went to Vishnu, who took the form of Vamana, a small Brahmin boy with an umbrella and a water pot, and walked into Mahabali's court."
+        }
+      ]
+    },
+    {
+      "title": "Three steps",
+      "lines": [
+        {
+          "speaker": "mahabali",
+          "text": "[generous] What will you have, child? Gold, cows, villages? Ask, and it is yours."
+        },
+        {
+          "speaker": "vamana",
+          "text": "[innocently] Only as much land as I can cover in three steps."
+        },
+        {
+          "speaker": "shukracharya",
+          "text": "[urgent whisper] Maharaja, stop! That is no boy. That is Vishnu himself!"
+        },
+        {
+          "speaker": "mahabali",
+          "text": "[firm, calm] I have made a promise. I will not take it back."
+        },
+        {
+          "speaker": "narrator",
+          "text": "He poured the water to seal the gift. [awed] Then Vamana began to grow. With his first step, he covered the whole earth. With his second, he covered the heavens."
+        },
+        {
+          "speaker": "vamana",
+          "text": "[vast, echoing] Where shall I put my third?"
+        },
+        {
+          "speaker": "narrator",
+          "text": "[softly] Mahabali knelt and bowed his head."
+        },
+        {
+          "speaker": "mahabali",
+          "text": "[serene] Put it here."
+        }
+      ]
+    },
+    {
+      "title": "The yearly visit",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "Vamana placed his foot on the king's head and pressed him down into Patala, the underworld. But moved by the king's honesty, he granted him one wish. Mahabali asked to visit his people... once every year."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[joyful] So every year, in the month of Chingam, as the rice is harvested, Kerala gets ready for his visit. Families draw pookalam, carpets of flowers, at their doorsteps. They row the snake boats, and sit down to the sadya, a feast on a banana leaf."
+        },
+        {
+          "speaker": "narrator",
+          "text": "[warmly] The festival is Onam. And for those days, people say, the land is as Mahabali left it."
+        }
+      ]
+    },
+    {
+      "title": "Afterword",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text": "[gently] It is a story about a king remembered not for power, but for keeping his word and treating everyone as equal. Thank you for listening to LitBridge."
+        }
+      ]
+    }
+  ]
+}
