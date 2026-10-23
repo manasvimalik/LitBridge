@@ -1,6 +1,6 @@
 /**
  * Voice catalogue, chosen from the ElevenLabs Voice Library (Indian English).
- * `owner` is the public owner id needed to add a shared voice to the account.
+ * Library voices are used directly by id; they don't need adding to the account.
  *
  * Narrators are the selectable "storyteller" voices; character voices are
  * matched to cast members by archetype in the director script's descriptions,
@@ -10,7 +10,6 @@
 export interface VoiceSpec {
   id: string;
   name: string;
-  owner?: string;
   note: string;
 }
 

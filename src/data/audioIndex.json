@@ -1,1 +1,19 @@
-{}
+{
+  "kabuliwala": [
+    {
+      "key": "ranbir",
+      "name": "Ranbir",
+      "manifest": "/audio/kabuliwala/ranbir.json"
+    },
+    {
+      "key": "riya",
+      "name": "Riya",
+      "manifest": "/audio/kabuliwala/riya.json"
+    },
+    {
+      "key": "jeevan",
+      "name": "Jeevan",
+      "manifest": "/audio/kabuliwala/jeevan.json"
+    }
+  ]
+}

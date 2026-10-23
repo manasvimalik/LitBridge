@@ -113,29 +113,9 @@ function castVoices(script: DirectorScript, narrator: VoiceSpec): Map<string, Vo
   return voices;
 }
 
-async function ensureVoices(client: ElevenLabsClient, specs: VoiceSpec[]) {
-  const mine = new Set<string>();
-  for (let page: string | undefined, guard = 0; guard < 20; guard++) {
-    const res = await client.voices.search({ pageSize: 100, nextPageToken: page });
-    res.voices.forEach((v) => mine.add(v.voiceId));
-    if (!res.hasMore || !res.nextPageToken) break;
-    page = res.nextPageToken;
-  }
-  for (const spec of specs) {
-    if (mine.has(spec.id)) continue;
-    // Shared library voices must be added to the account before use.
-    const found = await client.voices.getShared({ search: spec.name, pageSize: 50 });
-    const match = found.voices.find((v) => v.voiceId === spec.id);
-    if (!match) throw new Error(`Voice ${spec.name} (${spec.id}) not found in the Voice Library.`);
-    await client.voices.share(match.publicOwnerId, spec.id, { newName: `LitBridge ${spec.name}` });
-    console.log(`  added library voice ${spec.name}`);
-  }
-}
-
 async function renderNarrator(client: ElevenLabsClient, script: DirectorScript, key: string): Promise<EpisodeManifest> {
   const narrator = NARRATORS[key];
   const voices = castVoices(script, narrator);
-  await ensureVoices(client, [...new Map([...voices.values()].map((v) => [v.id, v])).values()]);
 
   const planned: PlannedLine[] = script.chapters.flatMap((ch, c) =>
     ch.lines.map((l) => {
